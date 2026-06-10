@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --animate-bounce-slow: bounce 3s infinite;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 transition-colors duration-200;
+}
+
+html.dark body {
+  @apply bg-slate-900 text-slate-100;
+}
+
+html.dark .bg-white {
+  @apply bg-slate-800 border-slate-700;
+}
+
+html.dark .bg-slate-50 {
+  @apply bg-slate-800/50;
+}
+
+html.dark .text-slate-900 {
+  @apply text-slate-100;
+}
+
+html.dark .text-slate-800 {
+  @apply text-slate-200;
+}
+
+html.dark .text-slate-700 {
+  @apply text-slate-300;
+}
+
+html.dark .text-slate-600 {
+  @apply text-slate-400;
+}
+
+html.dark .text-slate-500 {
+  @apply text-slate-400;
+}
+
+html.dark .border-slate-200, html.dark .border-slate-100 {
+  @apply border-slate-700;
+}

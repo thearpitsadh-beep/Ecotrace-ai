@@ -1,0 +1,6 @@
+{
+  "name": "EcoTrack",
+  "description": "A carbon footprint awareness platform to understand, track, and reduce emissions with AI insights.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
